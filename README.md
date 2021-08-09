@@ -2,7 +2,7 @@
 
 Live site link - https://tsimeonov.github.io/Newbie-_-Order-summary-component/
 
-## Style Guide
+# Style Guide
 
 ## Layout
 
