@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  background-color: rgba(219, 227, 254, 0.9);
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 25px;
+  max-width: 400px;
+}
+
+header {
+  border-radius: 25px 25px 0 0;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  margin: 0;
+  background-image: cover;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.main_paragraph {
+  width: 80%;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  color: rgb(127, 131, 147);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0 10px;
+  border-radius: 15px;
+}
+
+.music-icon {
+  width: 40px;
+}
+
+.annual_plan {
+  text-align: left;
+  margin-left: 30px;
+  flex: 1;
+}
+
+.annual_plan p:nth-of-type(1) {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.annual_plan p:nth-of-type(2) {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(127, 131, 147);
+  padding-top: 5px;
+}
+
+.link {
+  font-size: 16px;
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+}
+
+.link:hover {
+  color: hsl(225, 100%, 94%);
+  cursor: pointer;
+}
+
+button {
+  width: 80%;
+  margin: 25px auto;
+  padding: 10px 0;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(97, 87, 234);
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(97, 87, 234, 0.6);
+  box-shadow: 0px 10px rgba(97, 87, 234, 0.04);
+}
+
+.cancel_ord {
+  font-size: 16px;
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+}
+
+.cancel_ord:hover {
+  color: hsl(225, 100%, 94%);
+  cursor: pointer;
+}
+
+@media (max-width: 645px) {
+  h1 {
+    font-size: 14px;
+  }
+
+  .main_paragraph {
+    font-size: 12px;
+  }
+
+  section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 40%;
+  }
+
+  .music-icon {
+    margin-top: 10px;
+  }
+
+  .annual_plan {
+    margin: 0;
+  }
+
+  .annual_plan p:nth-of-type(1) {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .annual_plan p:nth-of-type(2) {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .link {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
