@@ -1,37 +1,36 @@
-# Newbie _ Order Summary Component
+# Order Summary Component
 
-Live site link - https://tsimeonov.github.io/Newbie-_-Order-summary-component/
+### The challenge
 
-# Style Guide
+Users should be able to:
 
-## Layout
+- View the optimal layout for the site depending on their device's screen size
 
-The designs were created to the following widths:
+### Screenshot
 
-- Mobile: 375px
-- Desktop: 1440px
+![](./screenshot.jpg)
 
-## Colors
+### Links
 
-### Primary
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
+## My process
 
-### Neutral
+### Built with
 
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- SCSS
 
-## Typography
+### What I learned
 
-### Body Copy
+- Using grid for layout
+- Using SCSS
 
-- Font size (paragraph): 16px
+## Author
 
-### Font
-
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900
-
+- Todor Simeonov
