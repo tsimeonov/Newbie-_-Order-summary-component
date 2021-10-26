@@ -8,11 +8,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-design.jpg
+![](./design/desktop-design.jpg)
 
 ### Links
 
-- Live Site URL: https://tsimeonov.github.io/Newbie-_-Order-summary-component/
+- Live Site URL: https://tsimeonov.github.io/Order-summary-component/
 
 ## My process
 
